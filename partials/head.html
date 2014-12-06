@@ -25,16 +25,6 @@
 
 <link href="{{ ASSETDIR }}/theme.css" rel="stylesheet">
 
-{% if page.page-css %}
-{% for name in page.page-css %}
-<link href="{{ ASSETDIR }}/admin/pages/css/{{ name }}.css" rel="stylesheet" type="text/css"/>
-{% endfor %}
-{% endif %}
-
-
-<link href="{{ ASSETDIR }}/custom.css" rel="stylesheet">
-
-
 {% if page.custom-css %}
 {% for name in page.custom-css %}
 <link href="{{ ASSETDIR }}/{{ name }}.css" rel="stylesheet" type="text/css"/>
