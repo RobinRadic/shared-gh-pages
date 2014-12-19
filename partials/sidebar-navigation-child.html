@@ -1,3 +1,6 @@
+{% assign url_segments = page.url | split:"/" %}
+
+
 {% if include.item.children %}
 <li>
     <a href="javascript:;">
@@ -13,7 +16,9 @@
 </li>
 {% else %}
 <li class=" ">
-    <a href="{{ BASEURL }}{{ include.item.link }}">
+    {% capture menulink %}{{ BASEURL }}{{ include.item.link }}{% endcapture %}
+    {% assign menulink = menulink | replace:":project",url_segments[1] %}
+    <a href="{{ menulink }}">
         <i class="{{ include.item.icon }}"></i>
         <span class="title">{{ include.item.name }}</span>
     </a>

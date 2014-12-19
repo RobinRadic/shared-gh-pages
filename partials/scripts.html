@@ -4,12 +4,14 @@
 <![endif]-->
 <script src="/assets/main.js"></script>
 
+
 {% if page.plugin-js %}
 {% for name in page.plugin-js %}
 <script src="/assets/global/plugins/{{ name }}.js" type="text/javascript"></script>
 {% endfor %}
 {% endif %}
 
+<script src="/assets/admin.js"></script>
 
 <script src="/assets/scripts.js"></script>
 

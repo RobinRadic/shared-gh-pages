@@ -14,10 +14,6 @@
   link: /projects
   icon: fa fa-cubes
   children:
-    - name: Radic Builder
-      link: /radic-builder
-      icon: fa fa-legal font-green-jungle
-
     - name: Blade Extensions
       link: /blade-extensions
       icon: fa fa-puzzle-piece font-green-jungle
@@ -30,9 +26,17 @@
       link: /swiftapi
       icon: fa fa-stack-overflow font-yellow-casablanca
 
+    - name: RadicJS
+      link: /radicjs
+      icon: fa fa-legal font-yellow-casablanca
+
     - name: RadicOS
       link: /RadicOS
-      icon: fa fa-linux
+      icon: fa fa-linux font-yellow-casablanca
+
+    - name: jQuery Github Widgets
+      link: /jquery-github-widgets
+      icon: fa fa-git
 
     - name: Miscellaneous
       link: /projects
@@ -44,7 +48,7 @@
 
         - name: Radic CLI
           link: /radic-cli
-          icon: fa fa-terminal
+          icon: fa fa-terminal font-yellow-casablanca
 
         - name: WoW Raid Icons
           link: /projects/wow-raid-icons
