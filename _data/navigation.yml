@@ -22,17 +22,17 @@
       link: /generator-radic
       icon: fa fa-yahoo font-green-jungle
 
+    - name: Node radic
+      link: /node-radic
+      icon: fa fa-jsfiddle font-yellow-casablanca
+
     - name: SwiftApi 2
       link: /swiftapi
-      icon: fa fa-stack-overflow font-yellow-casablanca
-
-    - name: RadicJS
-      link: /radicjs
-      icon: fa fa-legal font-yellow-casablanca
+      icon: fa fa-stack-overflow
 
     - name: RadicOS
       link: /RadicOS
-      icon: fa fa-linux font-yellow-casablanca
+      icon: fa fa-linux
 
     - name: jQuery Github Widgets
       link: /jquery-github-widgets
