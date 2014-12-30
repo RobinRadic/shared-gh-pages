@@ -26,6 +26,10 @@
       link: /node-radic
       icon: fa fa-jsfiddle font-yellow-casablanca
 
+    - name: Github JS Widgets
+      link: /github-jquery-widgets
+      icon: fa fa-git font-yellow-casablanca
+
     - name: SwiftApi 2
       link: /swiftapi
       icon: fa fa-stack-overflow
@@ -33,10 +37,6 @@
     - name: RadicOS
       link: /RadicOS
       icon: fa fa-linux
-
-    - name: jQuery Github Widgets
-      link: /jquery-github-widgets
-      icon: fa fa-git
 
     - name: Miscellaneous
       link: /projects
