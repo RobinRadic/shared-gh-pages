@@ -18,13 +18,13 @@
       link: /blade-extensions
       icon: fa fa-puzzle-piece font-green-jungle
 
+    - name: Node radic
+      link: /node-radic
+      icon: fa fa-jsfiddle font-green-jungle
+
     - name: Yo Radic generator
       link: /generator-radic
       icon: fa fa-yahoo font-green-jungle
-
-    - name: Node radic
-      link: /node-radic
-      icon: fa fa-jsfiddle font-yellow-casablanca
 
     - name: Github JS Widgets
       link: /github-jquery-widgets
@@ -58,10 +58,6 @@
       link: /projects
       icon: fa fa-slack
       children:
-
-        - name: Radic CLI
-          link: /radic-cli
-          icon: fa fa-terminal font-yellow-casablanca
 
         - name: RadicOS
           link: /RadicOS
